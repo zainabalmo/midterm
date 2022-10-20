@@ -10,7 +10,7 @@ public class quraticsolver {
 			System.out.println("This equation " + a + "x^2 + " + b +"x + " + c +" has no solution");
 		else
 			{
-				System.out.println("The solution for the equation " + a + "x^2 + " + b +"x + " + c +" are");
+				System.out.println("The CORRECT solution for the equation " + a + "x^2 + " + b +"x + " + c +" are");
 				System.out.println((-b+Math.sqrt(b*b-4*a*c))/2*a + " and " + (-b-Math.sqrt(b*b-4*a*c))/2*a);
 			}
 	}
